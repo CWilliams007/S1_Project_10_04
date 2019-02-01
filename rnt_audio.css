@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 8
+   Case Problem 4
+
+   Roads Not Taken Audio Styles
+   Author: Chad Williams
+   Date:   2/1/19
+
+   Filename: rnt_audio.css
+
+*/
+
+/* Audio Styles */
+/* Displays the audio element as a block, gives it a darkgray box shadow. Sets a box shadow for it, sets top and bottom margin, left and right margin auto, width is 80% of container.  */
+audio {
+    display: block;
+    box-shadow: 8px 8px 15px darkgray;
+    border-radius: 30px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Using webkit this can target the specifics in the audio, sets the background color of the panel to medium blue. */
+audio::-webkit-media-controls-panel {
+    background-color: rgb(128, 128, 255);
+
+}
